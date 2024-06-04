@@ -1,0 +1,30 @@
+sort1 uses: TODO
+buble sort
+
+How do you know?: TODO
+Because comparing with the last one (sort3), in a already sorted list we can see that 
+it is faster Ω(n). passes through the array only once, as it is already sorted it will not need to do any swaps so finished after reaching the last comparison par.
+real    0m0,841s
+user    0m0,013s
+sys     0m0,128s
+
+
+sort2 uses: TODO
+ merge sort
+
+How do you know?: TODO
+ because with a big random list it was the one that was faster. Θ(n log n)  
+   real    0m0,724s
+   user    0m0,026s
+   sys     0m0,118s
+
+
+sort3 uses: TODO
+selection sort 
+
+How do you know?: TODO
+ because comparing with the firs one (sort1) in a already sorted list we can see that 
+ the sort3 takes a lot more time than the sort1 Θ(n²). Takes the smallest number and compare throw the array again and again until the last number in the array. 
+real    0m3,118s
+user    0m2,371s
+sys     0m0,148s
